@@ -11,7 +11,7 @@ namespace FirebasePushNotify
     internal static class Program
     {
         private const string SCOPE_URL = "https://www.googleapis.com/auth/firebase.messaging";
-        private static string PUSH_NOTIF_URL = "https://fcm.googleapis.com/v1/projects/servicecommandfirebaseproject/messages:send";
+        private static string PUSH_NOTIF_URL = "https://fcm.googleapis.com/v1/projects/{Project-Name}/messages:send";
 
         static async Task Main(string[] args)
         {
